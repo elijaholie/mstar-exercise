@@ -1,0 +1,14 @@
+[
+	{
+		"_class" : "com.mstar.training.beans.Department",
+		"name" : "Logistics"
+	},
+	{
+		"_class" : "com.mstar.training.beans.Department",
+		"name" : "Engineering"
+	},
+	{
+		"_class" : "com.mstar.training.beans.Department",
+		"name" : "Planning"
+	}
+]

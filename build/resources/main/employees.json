@@ -1,0 +1,76 @@
+[
+	{
+		"_class" : "com.mstar.training.beans.Employee",
+		"name" : "Loyd Sutton",
+		"type" : "FULL_TIME",
+		"startDate" : "2017-01-13",
+		"department" : "Logistics",
+		"parkingSpace" : {
+			"lot" : 3,
+			"location" : "Tektite, Parking Level 01"
+		},
+		"projects" : [
+			"Training 2017",
+			"Department of Justice",
+			"Lightworks"
+		]
+	},
+	{
+		"_class" : "com.mstar.training.beans.Employee",
+		"name" : "Damien Mayer",
+		"type" : "PART_TIME",
+		"startDate" : "2001-07-04T12:08:56.235-0700",
+		"department" : "Logistics",
+		"parkingSpace" : {
+			"lot" : 1,
+			"location" : "Tektite, Parking Level 01"
+		},
+		"projects" : [
+			"Training 2017",
+			"Department of Justice"
+		]
+	},
+	{
+		"_class" : "com.mstar.training.beans.Employee",
+		"name" : "Deann Mercado",
+		"type" : "CONTRACTUAL",
+		"startDate" : "2017-05-24",
+		"department" : "Engineering",
+		"parkingSpace" : {
+			"lot" : 2,
+			"location" : "Tektite, Parking Level 01"
+		},
+		"projects" : [
+			"Training 2017",
+			"Lightworks"
+		]
+	},
+	{
+		"_class" : "com.mstar.training.beans.Employee",
+		"name" : "Janet Raquel Roman",
+		"type" : "FULL_TIME",
+		"startDate" : "2020-12-01T12:30:00.000-0700",
+		"department" : "Engineering",
+		"parkingSpace" : {
+			"lot" : 9,
+			"location" : "Tektite, Parking Level 02"
+		},
+		"projects" : [
+			"Department of Justice"
+		]
+	},
+	{
+		"_class" : "com.mstar.training.beans.Employee",
+		"name" : "Irving Menil",
+		"type" : "CONTRACTUAL",
+		"startDate" : "2016-03-22",
+		"department" : "Planning",
+		"parkingSpace" : {
+			"lot" : 25,
+			"location" : "Tycoon, Parking Level 05"
+		},
+		"projects" : [
+			"Lightworks"
+		]
+	}
+]

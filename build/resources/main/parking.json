@@ -1,0 +1,27 @@
+[
+	{
+		"_class" : "com.mstar.training.beans.ParkingSpace",
+		"lot" : 1,
+		"location" : "Tektite, Parking Level 01"
+	},
+	{
+		"_class" : "com.mstar.training.beans.ParkingSpace",
+		"lot" : 2,
+		"location" : "Tektite, Parking Level 01"
+	},
+	{
+		"_class" : "com.mstar.training.beans.ParkingSpace",
+		"lot" : 3,
+		"location" : "Tektite, Parking Level 01"
+	},
+	{
+		"_class" : "com.mstar.training.beans.ParkingSpace",
+		"lot" : 9,
+		"location" : "Tektite, Parking Level 02"
+	},
+	{
+		"_class" : "com.mstar.training.beans.ParkingSpace",
+		"lot" : 25,
+		"location" : "Tycoon, Parking Level 05"
+	}
+]

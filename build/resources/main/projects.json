@@ -1,0 +1,14 @@
+[
+	{
+		"_class" : "com.mstar.training.beans.Project",
+		"name" : "Training 2017"
+	},
+	{
+		"_class" : "com.mstar.training.beans.Project",
+		"name" : "Department of Justice"
+	},
+	{
+		"_class" : "com.mstar.training.beans.Project",
+		"name" : "Lightworks"
+	}
+]

@@ -1,0 +1,63 @@
+[
+	{
+		"_class" : "com.mstar.exercise.beans.Department",
+		"name" : "Olie Santos",
+		"rank" : "SPO-2",
+		"jail" : {
+			"name" : "Makati City Jail",
+			"address" : "02 Lawton Ave, Nort Side Makati, City",
+			"capacity" : "260"
+		},
+		"trustee" : {	
+			"name" : "Inmate 1",
+			"controlNumber" : "control number 1",
+			"commitmentDate" : "2017-07-24T06:19:34.018Z"
+		}
+	},	{
+		"_class" : "com.mstar.exercise.beans.Department",
+		"name" : "Jun Kin Minion",
+		"rank" : "SPO-3",
+		"jail" : {
+			"name" : "Makati City Jail",
+			"address" : "02 Lawton Ave, Nort Side Makati, City",
+			"capacity" : "260"
+		},
+		"trustee" : {	
+			"name" : "Inmate 2",
+			"controlNumber" : "control number 2",
+			"commitmentDate" : "2017-07-24T06:19:34.018Z"
+		}
+	},	{
+		"_class" : "com.mstar.exercise.beans.Department",
+		"name" : "Jason Anthony Cruz",
+		"rank" : "SPO-4",
+		"jail" : {
+			"name" : "Makati City Jail",
+			"address" : "02 Lawton Ave, Nort Side Makati, City",
+			"capacity" : "260"
+		}
+	},	{
+		"_class" : "com.mstar.exercise.beans.Department",
+		"name" : "Meann Narag",
+		"rank" : "SPO-5",
+		"jail" : {
+			"name" : "Makati City Jail",
+			"address" : "02 Lawton Ave, Nort Side Makati, City",
+			"capacity" : "260"
+		}
+	},	{
+		"_class" : "com.mstar.exercise.beans.Department",
+		"name" : "Vina Danica",
+		"rank" : "SPO-6",
+		"jail" : {
+			"name" : "Makati City Jail",
+			"address" : "02 Lawton Ave, Nort Side Makati, City",
+			"capacity" : "260"
+		},
+		"trustee" : {	
+			"name" : "Inmate 3",
+			"controlNumber" : "control number 3",
+			"commitmentDate" : "2017-07-24T06:19:34.018Z"
+		}
+	}
+]

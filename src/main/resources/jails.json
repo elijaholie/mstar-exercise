@@ -1,0 +1,8 @@
+[
+	{
+		"_class" : "com.mstar.exercise.beans.Department",
+		"name" : "Makati City Jail",
+		"address" : "02 Lawton Ave, Nort Side Makati, City",
+		"capacity" : "260"
+	}
+]

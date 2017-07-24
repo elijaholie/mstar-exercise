@@ -1,0 +1,53 @@
+[
+	{
+		"_class" : "com.mstar.exercise.beans.Department",
+		"name" : "Inmate 1",
+		"controlNumber" : "control number 1",
+		"commitmentDate" : "2017-07-24T06:19:34.018Z",
+		"jail" : {
+			"name" : "Makati City Jail",
+			"address" : "02 Lawton Ave, Nort Side Makati, City",
+			"capacity" : "260"
+		}
+	},	{
+		"_class" : "com.mstar.exercise.beans.Department",
+		"name" : "Inmate 2",
+		"controlNumber" : "control number 2",
+		"commitmentDate" : "2017-07-24T06:19:34.018Z",
+		"jail" : {
+			"name" : "Makati City Jail",
+			"address" : "02 Lawton Ave, Nort Side Makati, City",
+			"capacity" : "260"
+		}
+	},	{
+		"_class" : "com.mstar.exercise.beans.Department",
+		"name" : "Inmate 3",
+		"controlNumber" : "control number 3",
+		"commitmentDate" : "2017-07-24T06:19:34.018Z",
+		"jail" : {
+			"name" : "Makati City Jail",
+			"address" : "02 Lawton Ave, Nort Side Makati, City",
+			"capacity" : "260"
+		}
+	},	{
+		"_class" : "com.mstar.exercise.beans.Department",
+		"name" : "Inmate 4",
+		"controlNumber" : "control number 4",
+		"commitmentDate" : "2017-07-24T06:19:34.018Z",
+		"jail" : {
+			"name" : "Makati City Jail",
+			"address" : "02 Lawton Ave, Nort Side Makati, City",
+			"capacity" : "260"
+		}
+	},	{
+		"_class" : "com.mstar.exercise.beans.Department",
+		"name" : "Inmate 5",
+		"controlNumber" : "control number 5",
+		"commitmentDate" : "2017-07-24T06:19:34.018Z",
+		"jail" : {
+			"name" : "Makati City Jail",
+			"address" : "02 Lawton Ave, Nort Side Makati, City",
+			"capacity" : "260"
+		}
+	}
+]
