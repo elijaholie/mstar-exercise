@@ -1,63 +1,31 @@
 [
 	{
-		"_class" : "com.mstar.exercise.beans.Department",
+		"_class" : "com.mstar.exercise.beans.Officer",
 		"name" : "Olie Santos",
 		"rank" : "SPO-2",
-		"jail" : {
-			"name" : "Makati City Jail",
-			"address" : "02 Lawton Ave, Nort Side Makati, City",
-			"capacity" : "260"
-		},
-		"trustee" : {	
-			"name" : "Inmate 1",
-			"controlNumber" : "control number 1",
-			"commitmentDate" : "2017-07-24T06:19:34.018Z"
-		}
+		"jail" : "Makati City Jail",
+		"trustee" : "control number 2"
 	},	{
-		"_class" : "com.mstar.exercise.beans.Department",
+		"_class" : "com.mstar.exercise.beans.Officer",
 		"name" : "Jun Kin Minion",
 		"rank" : "SPO-3",
-		"jail" : {
-			"name" : "Makati City Jail",
-			"address" : "02 Lawton Ave, Nort Side Makati, City",
-			"capacity" : "260"
-		},
-		"trustee" : {	
-			"name" : "Inmate 2",
-			"controlNumber" : "control number 2",
-			"commitmentDate" : "2017-07-24T06:19:34.018Z"
-		}
+		"jail" : "Makati City Jail",
+		"trustee" : "control number 1"
 	},	{
-		"_class" : "com.mstar.exercise.beans.Department",
+		"_class" : "com.mstar.exercise.beans.Officer",
 		"name" : "Jason Anthony Cruz",
 		"rank" : "SPO-4",
-		"jail" : {
-			"name" : "Makati City Jail",
-			"address" : "02 Lawton Ave, Nort Side Makati, City",
-			"capacity" : "260"
-		}
+		"jail" : "Makati City Jail"
 	},	{
-		"_class" : "com.mstar.exercise.beans.Department",
+		"_class" : "com.mstar.exercise.beans.Officer",
 		"name" : "Meann Narag",
 		"rank" : "SPO-5",
-		"jail" : {
-			"name" : "Makati City Jail",
-			"address" : "02 Lawton Ave, Nort Side Makati, City",
-			"capacity" : "260"
-		}
+		"jail" : "Makati City Jail"
 	},	{
-		"_class" : "com.mstar.exercise.beans.Department",
+		"_class" : "com.mstar.exercise.beans.Officer",
 		"name" : "Vina Danica",
 		"rank" : "SPO-6",
-		"jail" : {
-			"name" : "Makati City Jail",
-			"address" : "02 Lawton Ave, Nort Side Makati, City",
-			"capacity" : "260"
-		},
-		"trustee" : {	
-			"name" : "Inmate 3",
-			"controlNumber" : "control number 3",
-			"commitmentDate" : "2017-07-24T06:19:34.018Z"
-		}
+		"jail" : "Makati City Jail",
+		"trustee" : "control number 3"
 	}
 ]

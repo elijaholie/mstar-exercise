@@ -17,6 +17,9 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.mstar.exercise.json.JailJsonDeserializer;
+
 @Entity
 @Table(name = "INMATE")
 public class Inmate {
@@ -41,6 +44,7 @@ public class Inmate {
 	private Officer officer;
 	
 	@ManyToOne
+	@JsonDeserialize(using = JailJsonDeserializer.class)
 	@JoinColumn(name = "JAIL_ID")
 	private Jail jail;
 

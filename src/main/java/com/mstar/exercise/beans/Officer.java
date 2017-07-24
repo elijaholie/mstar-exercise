@@ -9,6 +9,10 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.mstar.exercise.json.InmateJsonDeserializer;
+import com.mstar.exercise.json.JailJsonDeserializer;
+
 @Entity
 public class Officer {
 
@@ -21,10 +25,12 @@ public class Officer {
 	private String rank;
 
 	@ManyToOne
+	@JsonDeserialize(using = JailJsonDeserializer.class)
 	@JoinColumn(name = "JAIL_ID")
 	private Jail jail;
 
 	@OneToOne
+	@JsonDeserialize(using = InmateJsonDeserializer.class)
 	@JoinColumn(name = "TRUSTEE_ID")
 	private Inmate trustee;
 

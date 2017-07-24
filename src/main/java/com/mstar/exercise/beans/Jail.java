@@ -1,10 +1,13 @@
 package com.mstar.exercise.beans;
 
+import static javax.persistence.EnumType.STRING;
 import static javax.persistence.GenerationType.AUTO;
 
 import java.util.Collection;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
@@ -18,6 +21,29 @@ public class Jail{
 	
 	private String name;
 	
+	private String address;
+	
+	@Enumerated(STRING)
+	@Column(name = "REGION")
+	private Region region;
+	
+	private Integer capacity;
+	
+	@OneToMany(mappedBy="jail")
+	private Collection<Officer> officers;
+	
+	@OneToMany(mappedBy="jail")
+	private Collection<Inmate> inmates;	
+	
+	
+	public Region getRegion() {
+		return region;
+	}
+
+	public void setRegion(Region region) {
+		this.region = region;
+	}
+
 	public Long getId() {
 		return id;
 	}
@@ -66,15 +92,6 @@ public class Jail{
 		this.inmates = inmates;
 	}
 
-	private String address;
-	
-	private Integer capacity;
-	
-	@OneToMany(mappedBy="jail")
-	private Collection<Officer> officers;
-	
-	@OneToMany(mappedBy="jail")
-	private Collection<Inmate> inmates;	
 	
 	
 
